@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        "test_all"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.pythonPath": "selenium_env/bin/python"
+}
