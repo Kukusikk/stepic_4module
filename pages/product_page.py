@@ -12,7 +12,7 @@ class ProductPage(BasePage):
         button_add_bucket = self.browser.find_element(*ProductPageLocators.BUTTON_ADD_BUCKET)
         button_add_bucket.click()
 
-        # self.solve_quiz_and_get_code()
+        self.solve_quiz_and_get_code()
 
     def should_be_product_page(self):
         self.should_be_name_product()

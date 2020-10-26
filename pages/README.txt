@@ -1,0 +1,2 @@
+запуск виртуального окружения
+source selenium_env/bin/activate
