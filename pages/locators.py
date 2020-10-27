@@ -16,7 +16,12 @@ class ProductPageLocators():
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    BUCKET_LINK = (By.CSS_SELECTOR, ".btn-group")
+    BUCKET_EMPTY = (By.CSS_SELECTOR, "#content_inner > p > font > font")
     # LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
 
+class BucketPageLocators():
+    BUCKET_EMPTY = (By.CSS_SELECTOR, "#content_inner > p")
+    BUCKET_ITEMS = (By.CSS_SELECTOR, ".basket-items")
 
-
+#basket_formset > div
