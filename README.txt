@@ -1,4 +1,10 @@
-dзапуск виртуального окружения
+создание виртуального окружения
+python3 -m venv selenium_env
+
+подгрузка зависимостей
+pip install -r requirements.txt
+
+запуск виртуального окружения
 source selenium_env/bin/activate
 
 запуск файла с меткой
